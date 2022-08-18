@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Yocket">
+    <classes>           
+      <class name="com.CollageFinder.test.VerifyLaunchWebsite"/>
+      <class name="com.CollageFinder.test.VerifyCFandUFflow"/>
+      <class name="com.CollageFinder.test.VerifyMandatory">
+      <methods>
+					<include name="verifyMandatoryCountry" />
+					<include name="verifyMandatoryMajor" />
+					<include name="verifyMandatoryCollagelist" />
+					<include name="verifyMandatoryMajorCourses" />
+					<include name="verifyScoreMandatory" />
+				</methods>
+				</class>
+    </classes>
+  </test> <!-- Yocket -->
+</suite> <!-- Suite -->

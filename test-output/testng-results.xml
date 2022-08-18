@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="2" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="192699" started-at="2022-08-18T13:24:01Z" finished-at="2022-08-18T13:27:13Z">
+    <groups>
+    </groups>
+    <test name="Yocket" duration-ms="192699" started-at="2022-08-18T13:24:01Z" finished-at="2022-08-18T13:27:13Z">
+      <class name="com.CollageFinder.test.VerifyLaunchWebsite">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.CollageFinder.test.VerifyLaunchWebsite@1686d1f]" name="report" is-config="true" duration-ms="248" started-at="2022-08-18T13:24:01Z" finished-at="2022-08-18T13:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.CollageFinder.test.VerifyLaunchWebsite@1686d1f]" name="beforeClass" is-config="true" duration-ms="3709" started-at="2022-08-18T13:24:01Z" finished-at="2022-08-18T13:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyLaunchWebsite@1686d1f]" name="method" is-config="true" duration-ms="10" started-at="2022-08-18T13:24:05Z" finished-at="2022-08-18T13:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyLaunchWebsite.verifyLaunchWebsite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="verifyLaunchWebsite()[pri:0, instance:com.CollageFinder.test.VerifyLaunchWebsite@1686d1f]" name="verifyLaunchWebsite" duration-ms="3014" started-at="2022-08-18T13:24:05Z" finished-at="2022-08-18T13:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchWebsite -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.CollageFinder.test.VerifyLaunchWebsite@1686d1f]" name="afterClass" is-config="true" duration-ms="739" started-at="2022-08-18T13:24:08Z" finished-at="2022-08-18T13:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.CollageFinder.test.VerifyLaunchWebsite -->
+      <class name="com.CollageFinder.test.VerifyCFandUFflow">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.CollageFinder.test.VerifyCFandUFflow@1ee9989]" name="beforeClass" is-config="true" duration-ms="2208" started-at="2022-08-18T13:24:08Z" finished-at="2022-08-18T13:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="verifyCollagefinderUniFinder()[pri:0, instance:com.CollageFinder.test.VerifyCFandUFflow@1ee9989]" name="verifyCollagefinderUniFinder" duration-ms="104251" started-at="2022-08-18T13:24:11Z" finished-at="2022-08-18T13:25:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Shortlist & Join Group')]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10cfc351f27fc5d07844443a6818b0de
+*** Element info: {Using=xpath, value=//button[contains(text(),'Shortlist & Join Group')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Shortlist & Join Group')]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10cfc351f27fc5d07844443a6818b0de
+*** Element info: {Using=xpath, value=//button[contains(text(),'Shortlist & Join Group')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
+at com.CollageFinder.PageObjects.UniversityAndCollageFinder.shortlistandJoinGroup(UniversityAndCollageFinder.java:308)
+at com.CollageFinder.test.VerifyCFandUFflow.verifyCollagefinderUniFinder(VerifyCFandUFflow.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCollagefinderUniFinder -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyCFandUFflow@1ee9989]" name="method" is-config="true" duration-ms="0" started-at="2022-08-18T13:24:11Z" finished-at="2022-08-18T13:24:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyCFandUFflow.verifyCollagefinderUniFinder() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.CollageFinder.test.VerifyCFandUFflow@1ee9989]" name="afterClass" is-config="true" duration-ms="438" started-at="2022-08-18T13:25:55Z" finished-at="2022-08-18T13:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.CollageFinder.test.VerifyCFandUFflow -->
+      <class name="com.CollageFinder.test.VerifyMandatory">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="beforeClass" is-config="true" duration-ms="2250" started-at="2022-08-18T13:25:55Z" finished-at="2022-08-18T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="method" is-config="true" duration-ms="0" started-at="2022-08-18T13:25:58Z" finished-at="2022-08-18T13:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyMandatory.verifyMandatoryCountry() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="verifyMandatoryCountry()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="verifyMandatoryCountry" duration-ms="17566" started-at="2022-08-18T13:25:58Z" finished-at="2022-08-18T13:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryCountry -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="method" is-config="true" duration-ms="1" started-at="2022-08-18T13:26:15Z" finished-at="2022-08-18T13:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyMandatory.verifyMandatoryMajor() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="verifyMandatoryMajor()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="verifyMandatoryMajor" duration-ms="14725" started-at="2022-08-18T13:26:15Z" finished-at="2022-08-18T13:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryMajor -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="method" is-config="true" duration-ms="1" started-at="2022-08-18T13:26:30Z" finished-at="2022-08-18T13:26:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyMandatory.verifyMandatoryCollagelist() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="FAIL" signature="verifyMandatoryCollagelist()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="verifyMandatoryCollagelist" duration-ms="13551" started-at="2022-08-18T13:26:30Z" finished-at="2022-08-18T13:26:43Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
+at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
+at com.CollageFinder.test.VerifyMandatory.verifyMandatoryCollagelist(VerifyMandatory.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryCollagelist -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="method" is-config="true" duration-ms="1" started-at="2022-08-18T13:26:43Z" finished-at="2022-08-18T13:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyMandatory.verifyMandatoryMajorCourses() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="FAIL" signature="verifyMandatoryMajorCourses()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="verifyMandatoryMajorCourses" duration-ms="13358" started-at="2022-08-18T13:26:43Z" finished-at="2022-08-18T13:26:57Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
+at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
+at com.CollageFinder.test.VerifyMandatory.verifyMandatoryMajorCourses(VerifyMandatory.java:82)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryMajorCourses -->
+        <test-method status="FAIL" signature="verifyScoreMandatory()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="verifyScoreMandatory" duration-ms="15961" started-at="2022-08-18T13:26:57Z" finished-at="2022-08-18T13:27:13Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text-sm hidden xl:block" data-v-73cd7e19="">...</span> is not clickable at point (468, 28). Other element would receive the click: <div class="absolute inset-0 bg-black opacity-50" data-v-1953b62a=""></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LT095011', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
+at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
+at com.CollageFinder.test.VerifyMandatory.verifyScoreMandatory(VerifyMandatory.java:107)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScoreMandatory -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="method" is-config="true" duration-ms="0" started-at="2022-08-18T13:26:57Z" finished-at="2022-08-18T13:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CollageFinder.test.VerifyMandatory.verifyScoreMandatory() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.CollageFinder.test.VerifyMandatory@13ad2d6]" name="afterClass" is-config="true" duration-ms="565" started-at="2022-08-18T13:27:13Z" finished-at="2022-08-18T13:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.CollageFinder.test.VerifyMandatory -->
+    </test> <!-- Yocket -->
+  </suite> <!-- Suite -->
+</testng-results>
