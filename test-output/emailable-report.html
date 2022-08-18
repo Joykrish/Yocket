@@ -8,102 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Yocket</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">4</td><td class="num">192,699</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">59,904</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Yocket &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CollageFinder.test.VerifyCFandUFflow</td><td><a href="#m0">verifyCollagefinderUniFinder</a></td><td rowspan="1">1660829051117</td><td rowspan="1">104251</td></tr><tr class="failedodd"><td rowspan="3">com.CollageFinder.test.VerifyMandatory</td><td><a href="#m1">verifyMandatoryCollagelist</a></td><td rowspan="1">1660829190353</td><td rowspan="1">13551</td></tr><tr class="failedodd"><td><a href="#m2">verifyMandatoryMajorCourses</a></td><td rowspan="1">1660829203907</td><td rowspan="1">13358</td></tr><tr class="failedodd"><td><a href="#m3">verifyScoreMandatory</a></td><td rowspan="1">1660829217269</td><td rowspan="1">15961</td></tr><tr><th colspan="4">Yocket &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.CollageFinder.test.VerifyLaunchWebsite</td><td><a href="#m4">verifyLaunchWebsite</a></td><td rowspan="1">1660829045148</td><td rowspan="1">3014</td></tr><tr class="passedodd"><td rowspan="2">com.CollageFinder.test.VerifyMandatory</td><td><a href="#m5">verifyMandatoryCountry</a></td><td rowspan="1">1660829158058</td><td rowspan="1">17566</td></tr><tr class="passedodd"><td><a href="#m6">verifyMandatoryMajor</a></td><td rowspan="1">1660829175626</td><td rowspan="1">14725</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.CollageFinder.test.VerifyMandatory</td><td><a href="#m0">verifyMandatoryCollagelist</a></td><td rowspan="1">1660844823309</td><td rowspan="1">17846</td></tr><tr class="passedeven"><td><a href="#m1">verifyMandatoryCountry</a></td><td rowspan="1">1660844792752</td><td rowspan="1">16972</td></tr><tr class="passedeven"><td><a href="#m2">verifyMandatoryMajor</a></td><td rowspan="1">1660844809730</td><td rowspan="1">13579</td></tr><tr class="passedeven"><td><a href="#m3">verifyMandatoryMajorCourses</a></td><td rowspan="1">1660844841155</td><td rowspan="1">3317</td></tr><tr class="passedeven"><td><a href="#m4">verifyScoreMandatory</a></td><td rowspan="1">1660844844473</td><td rowspan="1">3551</td></tr></tbody>
 </table>
-<h2>Yocket</h2><h3 id="m0">com.CollageFinder.test.VerifyCFandUFflow#verifyCollagefinderUniFinder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Shortlist &amp; Join Group&apos;)]&quot;}
-  (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LT095011&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10cfc351f27fc5d07844443a6818b0de
-*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Shortlist &amp; Join Group&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
-	at com.CollageFinder.PageObjects.UniversityAndCollageFinder.shortlistandJoinGroup(UniversityAndCollageFinder.java:308)
-	at com.CollageFinder.test.VerifyCFandUFflow.verifyCollagefinderUniFinder(VerifyCFandUFflow.java:59)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.CollageFinder.test.VerifyMandatory#verifyMandatoryCollagelist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text-sm hidden xl:block&quot; data-v-73cd7e19=&quot;&quot;&gt;...&lt;/span&gt; is not clickable at point (468, 28). Other element would receive the click: &lt;div class=&quot;absolute inset-0 bg-black opacity-50&quot; data-v-1953b62a=&quot;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=104.0.5112.81)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LT095011&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
-	at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
-	at com.CollageFinder.test.VerifyMandatory.verifyMandatoryCollagelist(VerifyMandatory.java:58)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.CollageFinder.test.VerifyMandatory#verifyMandatoryMajorCourses</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text-sm hidden xl:block&quot; data-v-73cd7e19=&quot;&quot;&gt;...&lt;/span&gt; is not clickable at point (468, 28). Other element would receive the click: &lt;div class=&quot;absolute inset-0 bg-black opacity-50&quot; data-v-1953b62a=&quot;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=104.0.5112.81)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LT095011&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
-	at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
-	at com.CollageFinder.test.VerifyMandatory.verifyMandatoryMajorCourses(VerifyMandatory.java:82)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.CollageFinder.test.VerifyMandatory#verifyScoreMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text-sm hidden xl:block&quot; data-v-73cd7e19=&quot;&quot;&gt;...&lt;/span&gt; is not clickable at point (468, 28). Other element would receive the click: &lt;div class=&quot;absolute inset-0 bg-black opacity-50&quot; data-v-1953b62a=&quot;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=104.0.5112.81)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LT095011&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\j8994868\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea0aa7c413372c8ea1b5bf33e89fee53
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at Com.CollageFinder.Commands.ActionDriver.click(ActionDriver.java:63)
-	at com.CollageFinder.PageObjects.OpenCollageFinder.openCollageFinder(OpenCollageFinder.java:25)
-	at com.CollageFinder.test.VerifyMandatory.verifyScoreMandatory(VerifyMandatory.java:107)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.CollageFinder.test.VerifyLaunchWebsite#verifyLaunchWebsite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.CollageFinder.test.VerifyMandatory#verifyMandatoryCountry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.CollageFinder.test.VerifyMandatory#verifyMandatoryMajor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.CollageFinder.test.VerifyMandatory#verifyMandatoryCollagelist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.CollageFinder.test.VerifyMandatory#verifyMandatoryCountry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.CollageFinder.test.VerifyMandatory#verifyMandatoryMajor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.CollageFinder.test.VerifyMandatory#verifyMandatoryMajorCourses</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.CollageFinder.test.VerifyMandatory#verifyScoreMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

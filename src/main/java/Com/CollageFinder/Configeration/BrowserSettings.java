@@ -77,7 +77,7 @@ public class BrowserSettings {
 
 	@AfterClass
 	public void afterClass() {
-driver.close();
+//driver.close();
 		extent.flush();
 	}
 }

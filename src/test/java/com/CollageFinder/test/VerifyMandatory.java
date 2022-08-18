@@ -12,14 +12,14 @@ import com.CollageFinder.PageObjects.UniversityAndCollageFinder;
 import Com.CollageFinder.Configeration.BrowserSettings;
 
 public class VerifyMandatory extends BrowserSettings {
-@Test
+@Test(priority=1)
   public void verifyMandatoryCountry() throws IOException, InterruptedException {
-	Thread.sleep(10000);
+	
 	  OpenCollageFinder CF=new OpenCollageFinder();
 	  LauchWebsite LW=new LauchWebsite();
 	  UniversityAndCollageFinder UCF=new UniversityAndCollageFinder();
 	  LW.openWebsite();
-	  Thread.sleep(1000);
+	  Thread.sleep(10000);
 	  CF.openCollageFinder();
 	  Thread.sleep(1000);
 	  UCF.selectMaster();
@@ -31,14 +31,14 @@ public class VerifyMandatory extends BrowserSettings {
 	 
 	  
   }
- @Test
+ @Test(priority=2)
   public void verifyMandatoryMajor() throws IOException, InterruptedException {
-	 Thread.sleep(10000);
+	 
 	  OpenCollageFinder CF=new OpenCollageFinder();
 	  LauchWebsite LW=new LauchWebsite();
 	  UniversityAndCollageFinder UCF=new UniversityAndCollageFinder();
 	  LW.openWebsite();
-	  Thread.sleep(1000);
+	  Thread.sleep(10000);
 	  CF.openCollageFinder();
 	  UCF.selectMaster();
 	  UCF.clickNext();
@@ -47,18 +47,16 @@ public class VerifyMandatory extends BrowserSettings {
 	 
 	  
   }
- @Test
+ @Test(priority=3)
   public void verifyMandatoryCollagelist() throws IOException, InterruptedException {
-	 Thread.sleep(10000);
+	 
 	  OpenCollageFinder CF=new OpenCollageFinder();
 	  LauchWebsite LW=new LauchWebsite();
 	  UniversityAndCollageFinder UCF=new UniversityAndCollageFinder();
-	  LW.openWebsite();
-	  Thread.sleep(1000);
-	  CF.openCollageFinder();
-	  Thread.sleep(1000);
-	  UCF.selectMaster();
-	  Thread.sleep(1000);
+		/*
+		 * LW.openWebsite(); Thread.sleep(1000); CF.openCollageFinder();
+		 * Thread.sleep(1000); UCF.selectMaster(); Thread.sleep(1000);
+		 */
 	  UCF.selectCountry();
 	  Thread.sleep(1000);
 	  UCF.SelectMajor();
@@ -71,21 +69,17 @@ public class VerifyMandatory extends BrowserSettings {
 	  
 	  
   }
- @Test
+ @Test(priority=4)
  public void verifyMandatoryMajorCourses() throws InterruptedException, IOException {
-	 Thread.sleep(10000);
+	 
 	  OpenCollageFinder CF=new OpenCollageFinder();
 	  LauchWebsite LW=new LauchWebsite();
 	  UniversityAndCollageFinder UCF=new UniversityAndCollageFinder();
-	  LW.openWebsite();
-	  Thread.sleep(1000);
-	  CF.openCollageFinder();
-	  Thread.sleep(1000);
-	  UCF.selectMaster();
-	  Thread.sleep(1000);
-	  UCF.selectCountry();
-	  Thread.sleep(1000);
-	  UCF.SelectMajor();
+		/*
+		 * LW.openWebsite(); Thread.sleep(1000); CF.openCollageFinder();
+		 * Thread.sleep(1000); UCF.selectMaster(); Thread.sleep(1000);
+		 * UCF.selectCountry(); Thread.sleep(1000); UCF.SelectMajor();
+		 */
 	  Thread.sleep(1000);
 	  UCF.clickNext();
 	  Thread.sleep(1000);
@@ -96,21 +90,17 @@ public class VerifyMandatory extends BrowserSettings {
 	 
  }
  
-@Test 
+@Test(priority=5)
   public void verifyScoreMandatory() throws InterruptedException, IOException {
-	 Thread.sleep(10000);
+	
 	  OpenCollageFinder CF=new OpenCollageFinder();
 	  LauchWebsite LW=new LauchWebsite();
 	  UniversityAndCollageFinder UCF=new UniversityAndCollageFinder();
-	  LW.openWebsite();
-	  Thread.sleep(1000);
-	  CF.openCollageFinder();
-	  Thread.sleep(1000);
-	  UCF.selectMaster();
-	  Thread.sleep(1000);
-	  UCF.selectCountry();
-	  Thread.sleep(1000);
-	  UCF.SelectMajor();
+		/*
+		 * LW.openWebsite(); Thread.sleep(1000); CF.openCollageFinder();
+		 * Thread.sleep(1000); UCF.selectMaster(); Thread.sleep(1000);
+		 * UCF.selectCountry(); Thread.sleep(1000); UCF.SelectMajor();
+		 */
 	  Thread.sleep(1000);
 	  UCF.clickNext();
 	  Thread.sleep(1000);

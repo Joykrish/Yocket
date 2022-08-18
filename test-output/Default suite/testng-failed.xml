@@ -5,13 +5,11 @@
     <classes>
       <class name="com.CollageFinder.test.VerifyMandatory">
         <methods>
+          <include name="verifyMandatoryCountry"/>
           <include name="beforeClass"/>
-          <include name="verifyScoreMandatory"/>
           <include name="method"/>
           <include name="report"/>
-          <include name="verifyMandatoryMajorCourses"/>
           <include name="afterClass"/>
-          <include name="verifyMandatoryCollagelist"/>
         </methods>
       </class> <!-- com.CollageFinder.test.VerifyMandatory -->
     </classes>
